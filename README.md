@@ -38,3 +38,8 @@ $ kubectl get svc
 
 
 Congratulations! The application is hosted on localhost now. 
+
+
+If you want to stop and delete the application, use this command:
+
+$ kubectl get rs —all-name namespaces
