@@ -10,7 +10,7 @@ Attached below are the commands needed to run the whole application from start t
 $ docker
 
 
-Step 2: Once you build server.py, requirements.txt, dockerfile and docker-compose.yaml as shown in the repository, run these commands: 
+- Step 2: Once you build server.py, requirements.txt, dockerfile and docker-compose.yaml as shown in the repository, run these commands: 
 
 $ docker-compose build python
 
@@ -19,7 +19,7 @@ $ docker-compose up python
 Now, the application is hosted on localhost:5000. You can check it.
 
 
-Step 3: Stop the container using the stop button in Docker dashboard and initialte Kubernetes.
+- Step 3: Stop the container using the stop button in Docker dashboard and initialte Kubernetes.
 
 $ kubectl --help 
 
@@ -28,7 +28,7 @@ $ kubectl get nodes
 $ docker-compose push python
 
 
-Step 4: After this, create deployment.yaml and service.yaml files as shown in the repository and run these commands:
+- Step 4: After this, create deployment.yaml and service.yaml files as shown in the repository and run these commands:
 
 $ kubectl apply -f ./kubernetes/deployments/deployment.yaml
 
