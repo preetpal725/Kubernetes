@@ -5,9 +5,7 @@ This is a 'Hello World!' Python application running in a docker container on Kub
 
 Attached below are the commands needed to run the whole application from start to end:
 
--
-
-Step 1: Install Docker first, go to your kubernetes(main) folder in terminal and run the below command:
+- Step 1: Install Docker first, go to your kubernetes(main) folder in terminal and run the below command:
 
 $ docker
 
